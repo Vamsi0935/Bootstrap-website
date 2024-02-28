@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registration Form in Bootstrap</title>
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/free-photo/sketchbook-with-colored-pencils-blue-background-top-view_169016-38181.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707350400&semt=ais");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #71e1f2;
+        }
+
+        .btn a {
+            text-decoration: none;
+        }
+
+        .button {
+            transition: transform 0.5;
+        }
+
+        .button:hover {
+            background-color: green;
+            color: white;
+            transform: skew(5deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mx-1">
+        <form>
+            <div class="form-group">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFirstname" class="text-dark"><em>Firstname</em></label>
+                <input type="email" class="form-control border border-primary" id="firstname"
+                    aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputLastname" class="text-dark"><em>Lastname</em></label>
+                <input type="email" class="form-control border border-primary" id="lastname"
+                    aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="text-dark"><em>Email</em></label>
+                <input type="email" class="form-control border border-primary" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="text-dark"><em>Password</em></label>
+                <input type="password" class="form-control border border-primary" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="text-dark"><em>Confirm Password</em></label>
+                <input type="password" class="form-control border border-primary" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1" class="text-dark"><em>City&State</em></label>
+                <select class="form-control border border-primary" id="exampleFormControlSelect1">
+                    <option>Select Your City&State</option>
+                    <option>Hyderabad,Telangana</option>
+                    <option>Vijayawada,Andhra Pradesh</option>
+                    <option>Chennai,Tamilnadu</option>
+                    <option>Bengaluru,Karnataka</option>
+                    <option>Thiruvananthapuram,Kerala</option>
+                    <option>Mumbai,Maharastra</option>
+                    <option>Gandhinagar,Gujarath</option>
+                    <option>Bhubaneswar,Oddisha</option>
+                </select>
+            </div>
+            <!-- <div class="form-group">
+                <label for="exampleFormControlFile1" class="text-danger"><em>Resume</em></label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div> -->
+            <div>
+                <button type="submit" class="btn btn-primary rounded button rounded-pill p-2 w-25"><a href="login.html"
+                        class="text-light">SignUp</a></button>
+                <button type="reset" class="btn btn-outline-secondary rounded rounded-pill p-2 w-25">Reset</button>
+                <button type="submit" class="btn btn-primary rounded rounded-pill p-2 w-25 button">SignIn
+                    <a href="" class="text-light"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
